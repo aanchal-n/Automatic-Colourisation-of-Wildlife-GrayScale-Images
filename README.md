@@ -27,18 +27,18 @@ The Gradient Boosting model was fed the AB space of the coloured exemplar image 
 
  |Image                      | Chi-Square | Intersection |
  |---------------------------| -----------| -------------|
- | Ailuropoda Melanoleuca    | 0.88       | 3.40         |
- | Ceratotherium Simum       | 0.85       | 3.69         |
- | Dasypus Novemcinctus      | 0.93       | 2.65         |
+ | Ailuropoda Melanoleuca    | 11037      | 0.31         |
+ | Ceratotherium Simum       | 7548       | 1.67         |
+ | Dasypus Novemcinctus      | 4.8        | 0.36         |
  
 ### Convolutional Neural Network 
 For the convolutional neural network model, we pass the LAB images as input. We did not have to perform explicit feature extraction since CNNs are equipped to perform feature engineering on their own without human intervention. For the sake of this project, we use the resnet18 architecture with RELU layers and Batch normalisation to handle the gradients problem. 
 
  |Image                      | Chi-Square | Intersection |
  |---------------------------| -----------| -------------|
- | Ailuropoda Melanoleuca    | 0.88       | 3.40         |
- | Ceratotherium Simum       | 0.85       | 3.69         |
- | Dasypus Novemcinctus      | 0.93       | 2.65         |
+ | Ailuropoda Melanoleuca    | 60.4       | 1.5          |
+ | Ceratotherium Simum       | 40.03      | 0.9          |
+ | Dasypus Novemcinctus      | 53.06      | 1.59         |
 
 
 ### Auto Encoders
